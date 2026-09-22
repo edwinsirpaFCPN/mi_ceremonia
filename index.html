@@ -296,11 +296,11 @@ c-45 -43 -46 -46 -40 -87 9 -60 47 -114 89 -127 41 -14 101 5 187 58 28 17 53
             <p class="font-playfair text-gray-600 text-base sm:text-lg mb-1 sm:mb-2">10 de Octubre, 2026</p>
             <p class="font-sans text-[10px] sm:text-xs text-gray-400 uppercase tracking-widest mb-5 sm:mb-7">Tienen el honor de invitarte</p>
 
-            <button type="button" id="btn-open" class="group inline-flex items-center justify-center gap-2 bg-terracota text-white text-xs sm:text-base px-5 py-1.5 sm:px-8 sm:py-3 rounded-full font-playfair font-semibold tracking-wider hover:bg-opacity-90 transition-all hover:scale-105 active:scale-95 shadow-lg w-auto mx-auto">
+            <button type="button" id="btn-open" class="group inline-flex items-center justify-center gap-1 bg-terracota text-white text-xs sm:text-base px-3 py-1.5 sm:px-3 sm:py-3 rounded-full font-playfair font-semibold tracking-wider hover:bg-opacity-90 transition-all hover:scale-105 active:scale-95 shadow-lg w-auto mx-auto">
                 <svg viewBox="0 0 24 24" class="w-4 h-4 sm:w-5 sm:h-5 transition-transform group-hover:scale-110" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                     <path d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                 </svg>
-                <span class="sm:hidden">Abrir</span>
+                <span class="hidden">Abrir</span> 
                 <span class="hidden sm:inline">Abrir Invitación</span>
             </button>
         </div>
@@ -345,7 +345,11 @@ c-45 -43 -46 -46 -40 -87 9 -60 47 -114 89 -127 41 -14 101 5 187 58 28 17 53
 
                 <h3 class="font-playfair text-2xl tracking-widest text-eucalipto uppercase mb-3">Nuestras familias</h3>
                 <p class="font-playfair italic text-gray-500 mb-10 max-w-md mx-auto">Con la bendición de nuestros padres y el cariño de nuestros padrinos</p>
-                <div class="grid sm:grid-cols-2 gap-5 max-w-xl mx-auto"><div class="fam"><h4>Padres de la novia</h4><p>German Chiara Huanca</p><p>Lily U. Flores Aduviri</p></div><div class="fam"><h4>Padres del novio</h4><p>Dionicio Sirpa Callisaya (&#10013)</p><p>Saturnina Bautista Callisaya</p></div><div class="fam"><h4>Padrinos de matrimonio civil y religi&oacuten</h4><p>Jeiver S. Mendoza Bautista</p><p>Erika I. Suxo Cruz</p></div><div class="fam"><h4>Padrinos de torta</h4><p>Mario Mamani Ramos</p><p>Veronica Cutile Copa</p></div></div>
+                <div class="grid sm:grid-cols-2 gap-5 max-w-xl mx-auto">
+                    <div class="fam"><h4>Padres del novio</h4><p>Dionicio Sirpa Callisaya (&#10013)</p><p>Saturnina Bautista Callisaya</p></div>
+                    <div class="fam"><h4>Padres de la novia</h4><p>German Chiara Huanca</p><p>Lily Ursula Flores Aduviri</p></div>
+                    <div class="fam"><h4>Padrinos de matrimonio civil y religi&oacuten</h4><p>Jeiver Salhek Mendoza Bautista</p><p>Erika Icela Suxo Cruz</p></div>
+                    <div class="fam"><h4>Padrinos de torta</h4><p>Mario Mamani Ramos</p><p>Veronica Cutile Copa</p></div></div>
             </section>
 
             <section class="py-16 px-4 text-center reveal rounded-[2rem] bg-gradient-to-b from-soft-pink to-crema relative overflow-hidden">
@@ -355,14 +359,16 @@ c-45 -43 -46 -46 -40 -87 9 -60 47 -114 89 -127 41 -14 101 5 187 58 28 17 53
                 
                 <div class="flex items-center justify-center gap-6 sm:gap-12 mb-8 font-playfair text-terracota">
                     <div class="text-right">
-                        <p class="text-lg sm:text-xl uppercase">Sábado</p>
+                        <p class="text-sm sm:text-xl uppercase sm:hidden">SAB.</p>
+                        <p class="hidden text-lg sm:block sm:text-xl uppercase">Sábado</p>
                     </div>
-                    <div class="text-9xl sm:text-7xl border-l-2 border-r-2 border-terracota/30 px-6 sm:px-10">
+                    <div class="text-7xl sm:text-7xl border-l-2 border-r-2 border-terracota/30 px-5 sm:px-10">
                         10
                         <p class="text-lg sm:text-xl text-gray-500">2026</p>
                     </div>
                     <div class="text-left">
-                        <p class="text-lg sm:text-xl uppercase">Octubre</p>
+                        <p class="text-sm sm:text-xl uppercase sm:hidden">OCT.</p>
+                        <p class="hidden text-lg sm:block sm:text-xl uppercase">Octubre</p>
                     </div>
                 </div>
 
@@ -588,7 +594,7 @@ c-45 -43 -46 -46 -40 -87 9 -60 47 -114 89 -127 41 -14 101 5 187 58 28 17 53
                     Tu presencia es el mejor regalo. Por favor, confirma tu asistencia antes del 1 de Octubre.
                 </p>
                 
-                <a href="https://wa.me/59164151054?text=¡Hola!%20Confirmo%20mi%20asistencia%20a%20la%20boda%20el%2010%20de%20Octubre." target="_blank" rel="noopener noreferrer"
+                <a href="https://wa.me/591680504241?text=¡Hola!%20Confirmo%20mi%20asistencia%20a%20la%20boda%20el%2010%20de%20Octubre." target="_blank" rel="noopener noreferrer"
                     class="inline-flex items-center justify-center gap-3 bg-[#25D366] text-white px-8 py-4 rounded-full hover:bg-opacity-90 transition-all shadow-lg text-lg font-medium">
                     <svg viewBox="0 0 24 24" class="w-6 h-6" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.7 15L2 22l5.2-1.3A10 10 0 1 0 12 2z"/></svg>
                     Confirmar por WhatsApp
